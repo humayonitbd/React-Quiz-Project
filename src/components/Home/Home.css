@@ -1,0 +1,26 @@
+.course-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+   padding: 30px 0;
+}
+.main-courses-container{
+    padding: 30px 15px;
+}
+
+.course-detaisl{
+    background-image: url(/src/components/Home/Online-Courses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .course-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
