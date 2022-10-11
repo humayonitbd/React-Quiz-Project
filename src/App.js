@@ -22,7 +22,7 @@ function App() {
       {path:'chart', element:<Chart></Chart>},
       {path:'blog', element:<Blog></Blog>},
       {path:'about', element:<About></About>},
-      {path:'/home:id',
+      {path:'/home/:id',
       loader:({params})=>fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`),
        element:<QuizPage></QuizPage>}
     ]}

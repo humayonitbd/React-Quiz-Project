@@ -6,13 +6,18 @@ import './QuizPage.css'
 const QuizPage = () => {
     const quizsData = useLoaderData();
     const quizs = quizsData.data.questions;
-    // console.log(quizs)
+    const name = quizsData.data.name;
+   
     return (
         <div>
-            {
-                quizs.map(quiz => <QuizDetails key={quiz.id} quiz={quiz}></QuizDetails>)
-            }
+            <h2 className='text-center text-2xl font-bold text-red-600 my-8'>Quiz of {name}</h2>
+            <div>
+                {
+                    quizs.map(quiz => <QuizDetails key={quiz.id} quiz={quiz}></QuizDetails>)
+                }
+            </div>
         </div>
+        
     );
 };
 

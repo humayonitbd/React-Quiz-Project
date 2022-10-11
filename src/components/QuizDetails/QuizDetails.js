@@ -6,8 +6,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const QuizDetails = ({quiz}) => {
-    const {options, question, correctAnswer, id} = quiz;
-  
+    const {options, question, correctAnswer} = quiz;
+
     const iconClick = (correctAnswer) =>{
         toast(correctAnswer,{
             position:"top-center"

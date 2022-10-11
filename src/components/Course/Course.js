@@ -12,7 +12,7 @@ const Course = ({course}) => {
                 <h2 className="card-title">{name}</h2>
                 <p>Total Quiz: {total}</p>
                 <div className="card-actions justify-end">
-                <Link to={`/home${id}`}><button className="btn btn-primary">Start-Practice</button></Link>
+                <Link to={`/home/${id}`}><button className="btn btn-primary">Start-Practice</button></Link>
                 </div>
             </div>
             </div>
