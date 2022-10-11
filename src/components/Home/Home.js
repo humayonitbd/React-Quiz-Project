@@ -9,8 +9,8 @@ const Home = () => {
     return (
         <div className='main-courses-container'>
             <div className='course-detaisl'>
-                <h4 className='text-center text-5xl py-5 text-red-500 font-bold'>Course Details</h4>
-                <p className='text-center text-white'>Manusl simple dolar dolor sit amet consectetur adipisicing elit. Nobis, recusandae distinctio rem beatae rerum veritatis incidunt ratione dolor nulla minus itaque, molestias blanditiis</p>
+            <h4 className='text-center text-5xl py-5 text-red-500 font-bold'>Course Details</h4>
+                <p className='text-center text-white text-xl'>Alison is one of the world’s largest free learning platforms for education and skills training. It is a for-profit social enterprise dedicated to making it possible for anyone, to study anything, anywhere, at any time, for free online, at any subject level. Through our mission we are a catalyst for positive social change, creating opportunity, prosperity, and equality for everyone.</p>
             </div>
             <div className='course-container'>
                 {

@@ -7,7 +7,7 @@ const Header = () => {
         <div className='bg-base-300'>
             <div className="navbar w-10/12 m-auto">
             <div className="flex-1">
-                <a href='f' className="btn btn-ghost normal-case text-xl">Courses Quiz Website</a>
+                <a href='f' className="font-bold normal-case text-xl">Courses Quiz Website</a>
             </div>
             <div className="flex-none">
                 <ul className='lg:flex hidden lg:block pt-3'>
