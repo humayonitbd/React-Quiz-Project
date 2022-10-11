@@ -4,7 +4,7 @@ import './QuizDetails.css'
 const QuizDetails = ({quiz}) => {
     // console.log(quiz)
     const {options, question, correctAnswer, id} = quiz;
-    console.log(options)
+    console.log(correctAnswer)
     //  const [0] = options;
     // console.log(0)
     return (
@@ -16,7 +16,7 @@ const QuizDetails = ({quiz}) => {
             <div className="card-body text-center">
                 <div>
                     {
-                        options.map(option => <p className='border-2 border-rose-900 py-3 rounded mx-40 mb-3'>{option}</p>)
+                        options.map(option => <p className='border-2 hover:bg-slate-300 border-rose-900 py-3 rounded lg:mx-40 mb-3'>{option}</p>)
                     }
 
 
