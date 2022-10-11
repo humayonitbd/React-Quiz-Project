@@ -2,8 +2,8 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='lg:w-9/12 mx-auto mt-10'>
-            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+        <div className='lg:w-9/12 mx-auto mt-10 px-5'>
+            <div tabIndex={0} className="collapse collapse-arrow mb-3 border border-base-300 bg-base-100 rounded-box">
             <div className="collapse-title text-xl font-medium">
             রিঅ্যাক্ট-রাউটার এর উদ্দেশ্য কি ?
             </div>
@@ -11,7 +11,7 @@ const Blog = () => {
             <p>রিঅ্যাক্ট রাউটার হল রিঅ্যাক্টে রাউটিং করার জন্য একটি স্ট্যান্ডার্ড লাইব্রেরি। এটি একটি প্রতিক্রিয়া অ্যাপ্লিকেশনে বিভিন্ন উপাদানের ভিউগুলির মধ্যে নেভিগেশন সক্ষম করে, ব্রাউজার URL পরিবর্তন করার অনুমতি দেয় এবং UI কে URL এর সাথে সিঙ্কে রাখে । প্রতিক্রিয়া রাউটার বর্তমান অবস্থান বা URL এর জন্য একটি রাষ্ট্রীয় ধারক। এটি অবস্থানের ট্র্যাক রাখে এবং এটি পরিবর্তন হওয়ার সাথে সাথে বিভিন্ন Route রেন্ডার করে, এবং এটি আপনাকে Link s এবং history API ব্যবহার করে অবস্থান আপডেট করার সরঞ্জামও দেয়।</p>
             </div>
             </div>
-            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+            <div tabIndex={0} className="collapse collapse-arrow mb-3 border border-base-300 bg-base-100 rounded-box">
             <div className="collapse-title text-xl font-medium">
             Context api কিভাবে কাজ করে ?
             </div>
@@ -19,7 +19,7 @@ const Blog = () => {
                 <p>রিঅ্যাক্ট কনটেক্সট এপিআই হল একটি রিঅ্যাক্ট অ্যাপের জন্য কার্যকরভাবে গ্লোবাল ভেরিয়েবল তৈরি করার একটি উপায় যা চারপাশে পাস করা যেতে পারে। এটি "প্রপ ড্রিলিং" বা দাদা-দাদি থেকে শিশু থেকে পিতা-মাতার কাছে প্রপস সরানোর বিকল্প। রেডক্স ব্যবহার করে রাজ্য পরিচালনার জন্য প্রসঙ্গটিকে একটি সহজ, হালকা পদ্ধতি হিসাবেও উল্লেখ করা হয়।</p>
             </div>
             </div>
-            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+            <div tabIndex={0} className="collapse collapse-arrow mb-3 border border-base-300 bg-base-100 rounded-box">
             <div className="collapse-title text-xl font-medium">
              useRef কি ?
             </div>
