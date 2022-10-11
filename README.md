@@ -71,6 +71,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Website Name: Courses Quiz Website
 
+### live site link: https://quiz-assinment.netlify.app/home
+
 
 ##############
 1.First I gave my website a name, changed the website favicon and then created a header file. Then I tried to write something about my website by giving a background-image below the header file.
