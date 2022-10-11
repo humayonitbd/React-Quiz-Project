@@ -12,7 +12,9 @@ const QuizDetails = ({quiz}) => {
     // console.log(0)
 
     const iconClick = (correctAnswer) =>{
-        toast(correctAnswer)
+        toast(correctAnswer,{
+            position:"top-center"
+        })
 
     }
 
@@ -21,9 +23,13 @@ const QuizDetails = ({quiz}) => {
         const rightAnswer = e.target.innerText;
         // console.log(correctAnswer)
         if(correctAnswer === rightAnswer){
-            toast('Right Answer!!!')
+            toast.success('Right Answer!!!',{
+                position:"top-center"
+            })
         }else{
-            toast('Rong Answer!!!')
+            toast.warn('Rong Answer!!!',{
+                position:"top-center"
+            })
         }
 
     }
