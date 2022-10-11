@@ -73,9 +73,9 @@ Website Name: Courses Quiz Website
 
 
 ##############
-1.প্রথমে আমি আমার ওয়েবসাইটে একটা নাম দিয়েছি ,ওয়েবসাইটের ফেভিকন চেঞ্জ করে তারপর একটা হেডার ফাইল তৈরি করেছি । এরপর হেডার ফাইল এর নিচে একটা background-image দে আমার ওয়েবসাইট সম্পর্কে কিছু লেখার চেষ্টা করেছি।
+1.First I gave my website a name, changed the website favicon and then created a header file. Then I tried to write something about my website by giving a background-image below the header file.
 
-2.এরপর একটা এপিআই লিঙ্ক থেকে ডাটা লোড করে হোমপেজে দেখেছি, তারপর ওই ডাটাতে একটা বাটন ছিল ওখানে ক্লিক করে একটা ডায়নামিক link সাইজ যে ওই কোর্সের quiz গুলো দেখিয়েছি । কুইজের প্রশ্নের সাথে অ্যানসার মিল হলে একটা toast দেখিয়েছি ভুল হলে একটা toast দেখিয়েছি ।
+2.Then I loaded the data from an API link and saw it on the homepage, then there was a button in that data and by clicking there, I showed a dynamic link size that showed the quizzes of that course. If the answer matches the quiz question, a toast is shown, if it is wrong, a toast is shown.
 
-3.তারপর চার্ট নামে একটা  পেজ আছে ওখানে চাট দেখিয়েছি টোটাল দিয়ে, এরপর ব্লক নামে একটা পেজ আছে ওখানে তিনটা কইয়া প্রশ্নের answer দিয়েছি, এরপর ওয়েবসাইট থেকে রেস্পন্সিভ করেছি,এভাবে কার্যক্রম শেষ হয়েছে আমার ওয়েবসাইটের ।
+3.Then there is a page called chart where I have shown the chart with total, then there is a page called block where I have given answers to three questions, then I have responded from the website, thus the activities of my website have ended. 
 ##############
