@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Website Name: Courses Quiz Website
+
+
+##############
+1.প্রথমে আমি আমার ওয়েবসাইটে একটা নাম দিয়েছি ,ওয়েবসাইটের ফেভিকন চেঞ্জ করে তারপর একটা হেডার ফাইল তৈরি করেছি । এরপর হেডার ফাইল এর নিচে একটা background-image দে আমার ওয়েবসাইট সম্পর্কে কিছু লেখার চেষ্টা করেছি।
+
+2.এরপর একটা এপিআই লিঙ্ক থেকে ডাটা লোড করে হোমপেজে দেখেছি, তারপর ওই ডাটাতে একটা বাটন ছিল ওখানে ক্লিক করে একটা ডায়নামিক link সাইজ যে ওই কোর্সের quiz গুলো দেখিয়েছি । কুইজের প্রশ্নের সাথে অ্যানসার মিল হলে একটা toast দেখিয়েছি ভুল হলে একটা toast দেখিয়েছি ।
+
+3.তারপর চার্ট নামে একটা  পেজ আছে ওখানে চাট দেখিয়েছি টোটাল দিয়ে, এরপর ব্লক নামে একটা পেজ আছে ওখানে তিনটা কইয়া প্রশ্নের answer দিয়েছি, এরপর ওয়েবসাইট থেকে রেস্পন্সিভ করেছি,এভাবে কার্যক্রম শেষ হয়েছে আমার ওয়েবসাইটের ।
+##############
