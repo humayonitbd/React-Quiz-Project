@@ -9,10 +9,10 @@
 }
 
 .course-detaisl{
-    background-image: url(/src/components/Home/Online-Courses.jpg);
+    background-image: url(/src/components/Home/course1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 500px;
     background-position: center;
     
 }
