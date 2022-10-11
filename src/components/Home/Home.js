@@ -5,7 +5,7 @@ import './Home.css'
 
 const Home = () => {
     const courses = useContext(LoderdataContext);
-    console.log(courses)
+    // console.log(courses)
     return (
         <div className='main-courses-container'>
             <div className='course-detaisl'>
