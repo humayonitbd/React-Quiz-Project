@@ -15,9 +15,10 @@ const QuizDetails = ({quiz}) => {
 
     }
 
-    const optionHandler = (e) =>{
-        const rightAnswer = e.target.innerText;
-        if(correctAnswer === rightAnswer){
+    
+
+    const optionHandler = (option) =>{
+        if(correctAnswer === option){ 
             toast.success('Right Answer!!!',{
                 position:"top-center"
             })
@@ -40,7 +41,7 @@ const QuizDetails = ({quiz}) => {
             <div className="card-body text-center">
                 <div>
                     {
-                        options.map((option, idx) => <p key={idx} onClick={(e)=>optionHandler(e)} className='border-2 hover:bg-slate-300 border-rose-900 py-3 rounded lg:mx-20 mb-3'>{option}</p>)
+                        options.map((option, idx) => <p key={idx} onClick={()=>optionHandler(option)} className='border-2 hover:bg-slate-300 border-rose-900 py-3 rounded lg:mx-20 mb-3'>{option}</p>)
                     }
 
                 </div>
